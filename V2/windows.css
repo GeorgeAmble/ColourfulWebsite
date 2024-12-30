@@ -1,0 +1,86 @@
+body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* TOP BAR */
+#containerbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#topp {
+    text-align: center;
+    color: black;
+    background-color: rgb(229, 229, 229);
+    width: 15%;
+    padding-top: 17px;
+    padding-bottom: 17px;
+
+}
+
+/* ROW SECTION */
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+/* ROW 1 */
+#row1 {
+    flex-grow: 1;
+    background-color: gray;
+    height: 270px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* This is a sub row & is used from row 1 to 5 */
+#row11 {
+    width: 45%;
+    align-content: center;
+    text-align: center;
+}
+
+/* ROW 2 */
+#row2 {
+    flex-grow: 1;
+    background-color: darkgray;
+    height: 270px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* ROW 3 */
+#row3 {
+    flex-grow: 1;
+    background-color: lightgray;
+    height: 270px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* ROW 4 */
+#row4 {
+    flex-grow: 1;
+    background-color: whitesmoke;
+    height: 270px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* ROW 5 */
+#row5 {
+    flex-grow: 1;
+    background-color: white;
+    height: 270px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* PICTURES */
+#RowPic {
+    width: 95%;
+    height: 95%;
+}
