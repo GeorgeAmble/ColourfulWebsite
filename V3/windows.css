@@ -1,0 +1,86 @@
+body {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* TOP BAR */
+#containerbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#topp {
+    text-align: center;
+    color: black;
+    background-color: #f2e8cf;
+    width: 15%;
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+
+/* ROW SECTION */
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: #ffffff;
+}
+
+/* ROW 1 */
+#row1 {
+    flex-grow: 1;
+    background-color: #386641;
+    height: 333px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* This is a sub row & is used from row 1 to 5 */
+#row11 {
+    width: 45%;
+    align-content: center;
+    text-align: center;
+}
+
+/* ROW 2 */
+#row2 {
+    flex-grow: 1;
+    background-color: #6a994e;
+    height: 333px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* ROW 3 */
+#row3 {
+    flex-grow: 1;
+    background-color: #386641;
+    height: 333px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* ROW 4 */
+#row4 {
+    flex-grow: 1;
+    background-color: #6a994e;
+    height: 333px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* ROW 5 */
+#row5 {
+    flex-grow: 1;
+    background-color: #386641;
+    height: 333px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* PICTURES */
+#RowPic {
+    width: 95%;
+    height: 50%;
+}
